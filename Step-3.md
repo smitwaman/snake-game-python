@@ -5,6 +5,7 @@ Open a new tab in the browser and search for TMDB. The TMDB API Key is an authen
                                    TMDB
 Click on the first link on the google search result and it will bring you to the image below.
 
+
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/TMDB/17113860486544910691280844397731.jpg)
 
 Click on the ‘Login’ button on the top right-hand corner of the page to get to the Login to your accout page. Click ‘Click here’ to create your TMDB account.
