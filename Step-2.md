@@ -1,6 +1,6 @@
 👉 Step by step access and configuration The Jenkins And SonarQube Servers
 
-1. Jenkins server
+1. **Jenkins server**
 
 
 With the Ubuntu instance launched and the script for Jenkins and SonarQube installed, let’s access the Jenkins and SonarQube server one at a time.
@@ -45,7 +45,7 @@ Welcome to Jenkins
 
 
 
-2. SonarQube server
+2. **SonarQube server**
 
 With following command we will run our Sonarqube-Server.
 
