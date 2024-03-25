@@ -89,5 +89,41 @@ Copy the token and navigate to Jenkins credentials.
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113773298232593122918258482059.jpg)
 
 SonarQube Server Token Generated
+
 Click on Jenkins Credentials to open it.
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/sonar%20token%20addition/17113833016467445632125602279464.jpg)
+**In next steps we will add token to Jenkins and add webhook for SonarQube.**
+
+
+
+
+
+                  Jenkins Credentials
+On the Credentials page, click ‘(global)’ under ‘Domains’ as indicated in the image below.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/sonar%20token%20addition/17113833517424140999585473171877.jpg)
+                         Credentials Page
+Click ‘Add Credentials’ to add the token you copied from the SonarQube server.
+![](
+https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/sonar%20token%20addition/17113833648546348534015694585767.jpg)
+On the ‘New credentials’ page, select ‘Secret text’, paste the SonarQube token under ‘Secret’, type a name for the ID and Description and the click ‘Create’.
+
+
+Jenkins Credentials
+Our credentials created and save under Jenkins ‘Global credentials (unrestricted)’.
+
+
+Sonar-token Created
+Let’s navigate to the SonarQube server and configure the Webhook for Jenkins. The Webhools are used to notify external services when a project analysis is done. On the SonarQube server page, click Configuration and then Webhooks.
+
+
+Webhooks Configuration for Jenkins
+On the ‘Create Webhook’ page, type ‘Jenkins’ under ‘Name’ and ‘http://13.59.151.129:8080/sonarqube-webhook’ under URL, and click ‘Create’ to create the Webhook.
+
+
+Webhooks
+
+Webhook for Jenkins Created
+With Webhooks configured for Jenkins, let’s configure Docker using the following commands:
+
 
