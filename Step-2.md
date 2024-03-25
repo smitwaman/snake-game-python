@@ -129,7 +129,9 @@ On the ‘Create Webhook’ page, type ‘Jenkins’ under ‘Name’ and ‘htt
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/sonar%20token%20addition/17113834535086429329961175961877.jpg)
                                 Webhooks
 
-Webhook for Jenkins Created
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/sonar%20token%20addition/17113834654533047827258270371603.jpg)
+
+                       Webhook for Jenkins Created
 With Webhooks configured for Jenkins, let’s configure Docker using the following commands:
 
 
