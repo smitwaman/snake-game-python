@@ -6,7 +6,7 @@
 With the Ubuntu instance launched and the script for Jenkins and SonarQube installed, let’s access the Jenkins and SonarQube server one at a time.
 
 We’ll use the public IP address of the Ubuntu instance along with port 8080 and open a new browser to bring up the Jenkins server. The below image illustrates the series of steps for bringing up the Jenkins server. The Jenkins’ adminstrator password was copied, retrived from its log using the ‘sudo cat’ command, and pasted into the administrator password window to access the Jenkins server.
-
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/1711377059068648242202523632176.jpg)
 
 We’ll use the ‘Install suggested plugins’ to install our Jenkins plugins.
 
