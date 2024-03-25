@@ -53,3 +53,41 @@ With following command we will run our Sonarqube-Server.
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
 ```
+
+Let’s access the SonarQube server using the Ubuntu instance’s public IP address along with port number 9000. Log into the SonarQube server using the ‘admin’ username. The password is ‘admin,’ as indicated below.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113772138584977170009876536629.jpg)
+Log In to SonarQube
+
+Update the password to log into the SonarQube server.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113772245285056853776110295664.jpg)
+
+Update SonarQube Server Password
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113772326996191433855511749008.jpg)
+
+SonarQuber Server User Interface
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113772415211736252261364265674.jpg)
+
+Click on the Administration button, select ‘Security’ and then ‘Users’ to generate ‘Sonar-token’ for Jenkins.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113773037195047207969272269786.jpg)
+
+Generating Token For Jenkins
+Click the ‘Update Tokens’ to generate your token.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113773124199136575738115698736.jpg)
+
+SonarQube Page For Generate Token
+Type ‘Sonar-token’ under ‘Name’ and click ‘Generate’ to generate your token.
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113773204821557292593177865320.jpg)
+
+Generate Token
+Copy the token and navigate to Jenkins credentials.
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Sonarqube/17113773298232593122918258482059.jpg)
+
+SonarQube Server Token Generated
+Click on Jenkins Credentials to open it.
+
