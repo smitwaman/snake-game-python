@@ -12,16 +12,20 @@ We’ll use the ‘Install suggested plugins’ to install our Jenkins plugins.
 
 
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113770786617482499777939673851.jpg)
+
 Installing Jenkins Suggested Plugins
 The suggested plugins are installed.
 
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113770940111473650138699486122.jpg)
+
 Suggested Plugins
+
 Let’s create the ‘First Admin User’ by typing in our credentials in the image below. Click Save and Continue.
 
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113771038318238765125975349032.jpg)
 
 User Credentials
-Click on Save and Finis to complete the Jenkins Instance Configuration.
+Click on Save and Finish to complete the Jenkins Instance Configuration.
 
 
 Jenkins Configuration
