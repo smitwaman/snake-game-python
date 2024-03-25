@@ -42,3 +42,14 @@ The suggested plugins are installed.
 Welcome to Jenkins
 
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113771308797797277233676155905.jpg)
+
+
+
+2. SonarQube server
+
+With following command we will run our Sonarqube-Server.
+
+```
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+
+```
