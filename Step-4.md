@@ -27,10 +27,13 @@ You can download the latest version or the LTS (Long Term Support) version.
 
 You can also use the curl or wget command to download Prometheus.
 
-```
+
+
 To avoid permission issues, you need to set the correct ownership for the /etc/prometheus/ and data directory.
 
-$ sudo chown -R prometheus:prometheus /etc/prometheus/ /data/://github.com/prometheus/prometheus/releases/download/v2.47.1/prometheus-2.47.1.linux-amd64.tar.gz
+
+```
+sudo chown -R prometheus:prometheus /etc/prometheus/ /data/://github.com/prometheus/prometheus/releases/download/v2.47.1/prometheus-2.47.1.linux-amd64.tar.gz
 ```
 
 +
