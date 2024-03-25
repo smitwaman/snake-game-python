@@ -134,4 +134,13 @@ On the ‘Create Webhook’ page, type ‘Jenkins’ under ‘Name’ and ‘htt
                        Webhook for Jenkins Created
 With Webhooks configured for Jenkins, let’s configure Docker using the following commands:
 
+```
+sudo apt-get update
+sudo usermod -aG docker $USER #my case is ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+
+```
+
+The ‘sudo usermod -aG docker $USER’ command is used to add the current user to the ‘docker’ group. The ‘newgrp docker’ switches the current user to the docker group. The command sudo chmod 777 /var/run/docker.sock grants full read, write, and execute permissions to the owner, group, and others for the Docker socket file.
 
