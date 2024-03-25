@@ -11,10 +11,11 @@ We’ll use the public IP address of the Ubuntu instance along with port 8080 an
 We’ll use the ‘Install suggested plugins’ to install our Jenkins plugins.
 
 
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113770786617482499777939673851.jpg)
 Installing Jenkins Suggested Plugins
 The suggested plugins are installed.
 
-
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113770940111473650138699486122.jpg)
 Suggested Plugins
 Let’s create the ‘First Admin User’ by typing in our credentials in the image below. Click Save and Continue.
 
