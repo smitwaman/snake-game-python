@@ -23,18 +23,19 @@ The suggested plugins are installed.
 
 ![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113770940111473650138699486122.jpg)
 
-Suggested Plugins
+                            Suggested Plugins
 
 
 
 User Credentials
 Click on Save and Finish to complete the Jenkins Instance Configuration.
 
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113771130593098712904169130495.jpg)
 
 Jenkins Configuration
 Click on ‘Start using Jenkins’ to get the Jenkins welcome page.
 
-
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113771221194048793620322257795.jpg)
 
 Welcome to Jenkins
 
