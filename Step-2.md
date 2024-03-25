@@ -34,3 +34,5 @@ Click on ‘Start using Jenkins’ to get the Jenkins welcome page.
 
 
 Welcome to Jenkins
+
+![](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images/netflix-demo-images/Jenkins/17113771308797797277233676155905.jpg)
