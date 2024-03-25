@@ -4,3 +4,6 @@ Copy the shell script below and paste it into the ‘User data’ section. Revie
 
 You can also save the Bash script file as ‘netflix.sh’ using the nano editor (‘nano netflix.sh’). Paste the script, save it, and run it from your Ubuntu instance terminal. Don’t forget to execute the ‘chmod +x netflix.sh’ command in your terminal before running the script ‘./tools.sh'
 
+
+![EC2 launch with tools.sh](https://github.com/smitwaman/devops-netflix-pipeline/blob/main/images%2Fnetflix-demo-images%2FEC2%2F17113764910746965517050830563332.jpg)
+
