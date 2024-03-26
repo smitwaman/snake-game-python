@@ -14,3 +14,10 @@ stage("Docker Build & Push"){
                 sh "trivy image cloudezigns/netflix:latest > trivyimage.txt" 
             }
         }
+
+
+stage('Deploy to container'){
+            steps{
+                sh 'docker run -d --name netflix -p 8081:80 sevenajay/netflix:latest'
+            }
+        }
