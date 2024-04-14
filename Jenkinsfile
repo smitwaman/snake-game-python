@@ -26,8 +26,7 @@ pipeline {
             }
         }
 
-        stage('Python venv build') {
-    steps {
+    
         stage('Python venv build') {
     steps {
         // Install python3-venv package
@@ -49,5 +48,3 @@ pipeline {
 }
 
 
-    }
-}
