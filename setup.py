@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='snake-game',
+    name='snake_game',
     version='0.1',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='smitwaman',
+    author_email='smitwaman007@gmail.com',
     description='A classic snake game written in Python',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'snake-game = snake-game-python.main:main'
+            'snake_game=snake-game-python.main:main'
         ]
     },
     classifiers=[
