@@ -7,9 +7,7 @@ pipeline {
         DOCKER_REGISTRY = 'smitwaman/snake-game'
     }
 
-    tools {
-        
-    }
+   
 
     stages {
         stage('wsclean') {
