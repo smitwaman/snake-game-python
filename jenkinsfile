@@ -28,7 +28,7 @@ pipeline {
             steps {
                 // Push Docker image to Docker registry
                 script {
-                    docker.withRegistry('https://${DOCKER_REGISTRY}', 'docker-registry-credentials-id') {
+                    docker.withRegistry('https://${DOCKER_REGISTRY}', 'docker') {
                         docker.image(DOCKER_IMAGE).push()
                     }
                 }
