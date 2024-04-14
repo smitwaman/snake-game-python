@@ -28,15 +28,23 @@ pipeline {
 
         stage('Python venv build') {
     steps {
+        stage('Python venv build') {
+    steps {
         // Install python3-venv package
         sh 'sudo apt update && sudo apt install -y python3-venv'
 
-        // Create Python virtual environment and build
+        // Create Python virtual environment
+        sh 'python3 -m venv myenv'
+
+        // Activate virtual environment and install Python package
         sh '''
-            python3 -m venv myenv
-            source myenv/bin/activate
+            . myenv/bin/activate
             pip install -r requirements.txt
+            pip install .
         '''
+    }
+}
+
     }
 }
 
