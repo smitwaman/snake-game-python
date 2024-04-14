@@ -10,7 +10,7 @@ pipeline {
 
     tools {
         // Define SonarScanner tool
-        sonar 'sonar'
+        tool name: 'sonar', type: 'SonarQubeScanner'
     }
 
 
