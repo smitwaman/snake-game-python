@@ -30,4 +30,7 @@ jobs:
         pip install pygame pylint
     - name: Run Tests
       run: |
+        export PATH=$PATH:/opt/hostedtoolcache/Python/3.7.17/x64/bin
         python3 ./*.py
+
+
