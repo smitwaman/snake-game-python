@@ -8,7 +8,7 @@ setup(
     description='A classic snake game written in Python',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/smitwaman/snake-game-python',
+    url='https://github.com/smitwaman/snake-game-python.git',
     packages=find_packages(),
     install_requires=[
         # Add your requirements here
