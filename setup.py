@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'snake_game=snake-game-python.main:main'
+            'snake_game = snake-game-python.main:main'
         ]
     },
     classifiers=[
