@@ -10,7 +10,7 @@ pipeline {
 
     tools {
         // Define SonarScanner tool
-        tool name: 'sonar', type: 'SonarQubeScanner'
+        tool name: 'sonar', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
     }
 
 
