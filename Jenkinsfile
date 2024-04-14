@@ -12,8 +12,7 @@ pipeline {
         git 'Default'
         // Define Python installation
         jdk 'Python3' // Using JDK as a placeholder for Python
-        // Define SonarScanner tool
-        sonarqube 'SonarQubeScanner'
+        
     }
 
     stages {
