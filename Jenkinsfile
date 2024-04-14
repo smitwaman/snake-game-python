@@ -51,7 +51,7 @@ pipeline {
             withSonarQubeEnv(credentialsId: 'snake-game') {
                                sonar-scanner \
                                -Dsonar.projectKey=snake-game \
-                               -Dsonar.sources=. \
+                               -Dsonar.sources= \
                                -Dsonar.host.url=http://localhost:9000 \
                                -Dsonar.login=4801cac1ac5f143ceeed233425c210e699952339  
 
