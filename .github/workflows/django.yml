@@ -23,8 +23,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
+        
+        apt-get install python3 python3-pip
+ 
         python -m pip install --upgrade pip
         pip install pygame pylint
     - name: Run Tests
       run: |
-        python ./*.py test
+        python3 ./*.py
