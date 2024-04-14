@@ -15,10 +15,11 @@ setup(
         'pygame>=2.0.1',
     ],
     entry_points={
-        'console_scripts': [
-            'snake_game = snake-game-python.main:main'
-        ]
-    },
+    'console_scripts': [
+        'snake_game=snake-game-python.main:main'
+    ]
+},
+
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
