@@ -20,5 +20,5 @@ jobs:
         pip install pylint
     - name: Run pylint
       run: |
-        pylint **/*.py --disable=all \
+        pylint ./*.py --disable=all \
           --enable=C0114,C0411,C0103,C0116,E0401,R1722,W0603,W0621
