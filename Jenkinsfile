@@ -39,7 +39,7 @@ pipeline {
         sh '''
             . myenv/bin/activate
             pip install -r requirements.txt
-            pip install ./main.py
+            pip install .
         '''
     }
 }
