@@ -48,8 +48,9 @@ pipeline {
 
         stage('SonarQube Scan') {
             steps {
-            withSonarQubeEnv(credentialsId: 'snake-game') {
-                               sonar-scanner \
+            withSonarQubeEnv(credentialsId: 'snake-game') 
+   sh 
+   sonar-scanner \
   -Dsonar.projectKey=snake-game \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
