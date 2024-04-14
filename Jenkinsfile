@@ -15,23 +15,19 @@ pipeline {
             }
         }
 
-        
         stage('SonarQube Scan') {
             steps {
-                withSonarQubeEnv(credentialsId: 'snake-game') {
-    // some block
-
-                // Run SonarScanner
-                sh '''
-                    sonar-scanner \
-                    -Dsonar.projectKey=snake-game \
-                    -Dsonar.sources=src \
-                    -Dsonar.host.url=http://localhost:9000 \
-                    -Dsonar.login=4801cac1ac5f143ceeed233425c210e699952339
-                '''
+                withSonarQubeEnv('SonarQubeScanner') {
+                    // Run SonarScanner
+                    sh '''
+                        sonar-scanner \
+                        -Dsonar.projectKey=snake-game \
+                        -Dsonar.sources=src \
+                        -Dsonar.host.url=http://localhost:9000 \
+                        -Dsonar.login=4801cac1ac5f143ceeed233425c210e699952339
+                    '''
+                }
             }
         }
-    }
-        
     }
 }
