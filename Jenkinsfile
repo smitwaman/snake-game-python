@@ -8,10 +8,12 @@ pipeline {
     }
 
     tools {
+        // Define Git installation
+        git 'Default'
         // Define Python installation
-        python 'Python3'
+        jdk 'Python3' // Using JDK as a placeholder for Python
         // Define SonarScanner tool
-        sonar 'SonarQubeScanner'
+        sonarqube 'SonarQubeScanner'
     }
 
     stages {
@@ -21,6 +23,13 @@ pipeline {
                 sh '''
                     # Add your wsclean commands here
                 '''
+            }
+        }
+
+        stage('Git Checkout') {
+            steps {
+                // Checkout code from Git repository
+                checkout scm
             }
         }
 
