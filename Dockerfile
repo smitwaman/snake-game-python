@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the current directory contents into the container at /app
 COPY ./* /app
-RUN apt install python3
+RUN apt install python3 -y
 
 # Install any needed packages specified in requirements.txt (if you have one)
 # RUN pip install --no-cache-dir -r requirements.txt
