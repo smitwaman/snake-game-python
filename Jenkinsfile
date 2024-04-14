@@ -17,7 +17,7 @@ pipeline {
 
         stage('SonarQube Scan') {
             steps {
-                withSonarQubeEnv('sonar') {
+              step{  withSonarQubeEnv('sonar') {
                     // Run SonarScanner
                     sh 
                         '''
@@ -28,7 +28,7 @@ pipeline {
                         -Dsonar.login=4801cac1ac5f143ceeed233425c210e699952339
                         -Dsonar.analysis.mode=preview \
                         -Dsonar.dryRun=true'
-                        '''
+                   }     '''
                 }
             }
         }
