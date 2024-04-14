@@ -7,6 +7,13 @@ pipeline {
         DOCKER_REGISTRY = 'smitwaman/snake-game'
     }
 
+
+    tools {
+        // Define SonarScanner tool
+        sonar 'sonar'
+    }
+
+
     stages {
         stage('Checkout') {
             steps {
