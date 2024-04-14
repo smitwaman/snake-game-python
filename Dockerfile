@@ -11,4 +11,4 @@ COPY * /app
 # RUN pip install --no-cache-dir -r requirements.txt
 
 # Command to run the Python program
-CMD ["python3", "main.py"]
+CMD ["python", "main.py"]
