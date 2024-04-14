@@ -20,7 +20,7 @@ pipeline {
                 withSonarQubeEnv('sonar') {
                     // Run SonarScanner
                     sh '''
-                        sonar-scanner \
+                        sonar \
                         -Dsonar.projectKey=snake-game \
                         -Dsonar.sources=src \
                         -Dsonar.host.url=http://localhost:9000 \
