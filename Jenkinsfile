@@ -11,7 +11,7 @@ pipeline {
         // Define Python installation
         python 'Python3'
         // Define SonarScanner tool
-        sonarqube 'SonarQubeScanner'
+        sonar 'SonarQubeScanner'
     }
 
     stages {
