@@ -48,7 +48,7 @@ pipeline {
 
         stage('SonarQube Scan') {
             steps {
-            withSonarQubeEnv(credentialsId: 'snake-game') 
+            withSonarQubeEnv(credentialsId: 'snake-game'){ 
    sh 
    'sonar-scanner \
   -Dsonar.projectKey=snake-game \
@@ -60,4 +60,4 @@ pipeline {
             }
         }
     }
-
+}
